@@ -1,1 +1,1 @@
-# teenager-exposed-to-provocative-contents
+# Teenager-exposed-to-provocative-contents
