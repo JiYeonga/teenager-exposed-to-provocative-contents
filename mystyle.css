@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body{
+    height: 100vh;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+#bodyblock{
+    width: 100vw;
+    height: 100vh;
+}
+
+#titleText{
+    width: 100vw;
+    height: 7.4vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#leftTitle{
+    margin: 0px;
+    padding-left: 2.5vw;
+    padding-top: 2.5vh;
+    width: 36vw;
+}
+
+#black{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+
+#black.open{
+    display: flex;
+}
+
+.aboutText{
+    width: 800px;
+    height: 350px;
+    font-size: 1em;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#aboutTitle{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+#xBtn{
+    text-align: right;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    cursor: grab;
+}
+
+#aTag{
+    margin: 0px;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    text-align: right;
+    width: 15vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    cursor: grab;
+}
+
+#content{
+    height: 86.5vh;
+}
+
+#student{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+} 
+
+#normmalStudent{
+    height: 83vh;
+}
+
+/*경고판*/
+.alret{
+    width: 5vw;
+    position: absolute;
+}
+
+#oA{
+    left: 25vw;
+    top: 15vh;
+    transform: rotate(-10deg);
+}
+
+#oA2{
+    right: 40vw;
+    top: 6vh;
+    transform: rotate(15deg);
+}
+
+#oA3{
+    left: 35vw;
+    top: 85vh;
+    transform: rotate(-40deg);
+}
+
+#gOA{
+    right: 25vw;
+    top: 20vh;
+    transform: rotate(50deg);
+}
+
+#pC{
+    right: 30vw;
+    top: 45vh;
+    transform: rotate(-30deg);
+}
+
+#pC2{
+    left: 30vw;
+    top: 40vh;
+    transform: rotate(35deg);
+}
+
+/*tv*/
+
+#tv{
+    height: 86.5vh;
+    width: 100vw;
+    position: relative;
+    top: -83.4vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#tvLeft{
+    height: 86.5vh;
+}
+
+#tvRight{
+    height: 86.5vh;
+}
+
+/* 여기서부터는 왼쪽 tv*/
+
+#left1{
+    align-items: flex-end;
+    height: 20.6vh;
+}
+
+#knife{
+    height: 20.6vh;
+    margin-left: 2.5vw;
+    cursor: not-allowed;
+}
+
+
+#left2{
+    align-items: flex-end;
+    height: 15vh;
+}
+
+
+#dance{
+    height: 15vh;
+    margin-left: 8vw;
+    cursor: not-allowed;
+}
+
+#left3{
+    align-items: flex-end;
+    height: 27.2vh;
+}
+
+#motorcycle{
+    height: 27.2vh;
+    margin-left: 6vw;
+    cursor: not-allowed;
+}
+
+#left4{
+    display: inline-flex;
+    align-items: flex-end;
+    height: 23.7vh;
+}
+
+#angry{
+    height: 23.7vh;
+    float: left;
+    cursor: not-allowed;
+}
+
+#tatoo{
+    height: 20vh;
+    float: left;
+    cursor: not-allowed;
+}
+/* 여기서부터는 오른쪽 tv*/
+
+#right1{
+    align-items: flex-end;
+    height: 21.3vh;
+}
+
+#gun{
+    height: 21.3vh;
+    margin-right: 4vw;
+    float: right;
+    cursor: not-allowed;
+}
+
+#right2{
+    height: 33.4vh;
+}
+
+#clothes{
+    height: 33.3vh;
+    float: right;
+    cursor: not-allowed;
+}
+
+#fxxk{
+    height: 33.4vh;
+    float: right;
+    cursor: not-allowed;
+}
+
+#right3{
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+#smoke{
+    height: 31vh;
+    cursor: not-allowed;
+}
+
+
+#drink{
+    height: 31vh;
+    cursor: not-allowed;
+}
+
+#knife:hover{
+    animation: leftAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#dance:hover{
+    animation: leftAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#motorcycle:hover{
+    animation: leftAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#angry:hover{
+    animation: leftAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#tatoo:hover{
+    animation: leftAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes leftAni{
+    from{
+        left: 0px;
+    }
+    to{
+        left: -15px;
+    }
+}
+
+#gun:hover{
+    animation: rightAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#clothes:hover{
+    animation: rightAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#fxxk:hover{
+    animation: rightAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#smoke:hover{
+    animation: rightAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+#drink:hover{
+    animation: rightAni;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes rightAni{
+    0%{
+        right: 0px;
+    }
+    to{
+        right: -15px;
+    }
+}
